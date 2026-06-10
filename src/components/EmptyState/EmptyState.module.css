@@ -1,0 +1,29 @@
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: var(--space-2);
+  padding: var(--space-6) var(--space-4);
+  color: var(--color-text-muted);
+  height: 100%;
+  min-height: 220px;
+}
+
+.icon {
+  font-size: 2.5rem;
+  line-height: 1;
+  opacity: 0.7;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 1.05rem;
+}
+
+.description {
+  max-width: 32ch;
+  font-size: 0.9rem;
+  color: var(--color-text-faint);
+}
