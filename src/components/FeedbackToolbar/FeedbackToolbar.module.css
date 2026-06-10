@@ -2,7 +2,7 @@
   display: flex;
   gap: var(--space-3);
   padding: var(--space-3) var(--space-4);
-  border-bottom: 1px solid var(--glass-border);
+  border-bottom: 1px solid var(--border-soft);
 }
 
 .searchField {
@@ -14,8 +14,8 @@
   width: 100%;
   padding: 10px 36px 10px 14px;
   border-radius: var(--radius-sm);
-  border: 1px solid var(--glass-border);
-  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-soft);
+  background: var(--surface-input);
   color: var(--color-text);
   outline: none;
   transition: border-color 0.2s ease, background 0.2s ease;
@@ -27,7 +27,7 @@
 
 .searchInput:focus {
   border-color: var(--color-accent);
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--surface-input-focus);
 }
 
 .spinner {
@@ -52,8 +52,8 @@
 .statusSelect {
   padding: 10px 14px;
   border-radius: var(--radius-sm);
-  border: 1px solid var(--glass-border);
-  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-soft);
+  background: var(--surface-input);
   color: var(--color-text);
   outline: none;
   cursor: pointer;
